@@ -1,0 +1,129 @@
+{
+  "uid" : "943aec5fee4d9ea5",
+  "name" : "Test07 - Add Item To Shopping Cart",
+  "fullName" : "sanity.nopCommerceWeb.test07_AddItem_ShoppingCart",
+  "historyId" : "e8c2a23189d42b3774f45d92fdcfbc53",
+  "time" : {
+    "start" : 1634204270661,
+    "stop" : 1634204275613,
+    "duration" : 4952
+  },
+  "description" : "This Test Adds the Specified Item By (Given Index)  To Shopping Cart and Verify it",
+  "descriptionHtml" : "<p>This Test Adds the Specified Item By (Given Index)  To Shopping Cart and Verify it</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1634204208875,
+      "stop" : 1634204214802,
+      "duration" : 5927
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethode",
+    "time" : {
+      "start" : 1634204270645,
+      "stop" : 1634204270654,
+      "duration" : 9
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1634204275615,
+      "stop" : 1634204275615,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1634204301004,
+      "stop" : 1634204302053,
+      "duration" : 1049
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test07_AddItem_ShoppingCart"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HSPR786"
+  }, {
+    "name" : "thread",
+    "value" : "5340@DESKTOP-HSPR786.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "943aec5fee4d9ea5.json",
+  "parameterValues" : [ "web" ]
+}

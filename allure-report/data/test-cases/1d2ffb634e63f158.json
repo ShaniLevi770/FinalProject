@@ -1,0 +1,135 @@
+{
+  "uid" : "1d2ffb634e63f158",
+  "name" : "Test06 - Verify Search Results",
+  "fullName" : "sanity.nopCommerceWeb.test06_Verify_SearchResults",
+  "historyId" : "6366767dc703fb6e96f91dd55da318e9",
+  "time" : {
+    "start" : 1634204262914,
+    "stop" : 1634204270637,
+    "duration" : 7723
+  },
+  "description" : "This Test Verify Search Results For Strings Accepted From Data Provider Method",
+  "descriptionHtml" : "<p>This Test Verify Search Results For Strings Accepted From Data Provider Method</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1634204208875,
+      "stop" : 1634204214802,
+      "duration" : 5927
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethode",
+    "time" : {
+      "start" : 1634204262892,
+      "stop" : 1634204262905,
+      "duration" : 13
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1634204270639,
+      "stop" : 1634204270639,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1634204301004,
+      "stop" : 1634204302053,
+      "duration" : 1049
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test06_Verify_SearchResults"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HSPR786"
+  }, {
+    "name" : "thread",
+    "value" : "5340@DESKTOP-HSPR786.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  }, {
+    "name" : "arg0",
+    "value" : "pride"
+  }, {
+    "name" : "arg1",
+    "value" : "exists"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d2ffb634e63f158.json",
+  "parameterValues" : [ "web", "pride", "exists" ]
+}

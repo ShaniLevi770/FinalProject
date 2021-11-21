@@ -1,0 +1,129 @@
+{
+  "uid" : "126ceae519680f3c",
+  "name" : "Test08 - Sort Items By Price Low to High and Verify it ",
+  "fullName" : "sanity.nopCommerceWeb.test08_sortPrices",
+  "historyId" : "51ecf099a6eb1244f1845e4b827baa5a",
+  "time" : {
+    "start" : 1634204407856,
+    "stop" : 1634204414768,
+    "duration" : 6912
+  },
+  "description" : "This Test Sorts Items On Page By Price Low to High",
+  "descriptionHtml" : "<p>This Test Sorts Items On Page By Price Low to High</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1634204342614,
+      "stop" : 1634204347886,
+      "duration" : 5272
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethode",
+    "time" : {
+      "start" : 1634204407834,
+      "stop" : 1634204407851,
+      "duration" : 17
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1634204414773,
+      "stop" : 1634204414774,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1634204435130,
+      "stop" : 1634204436378,
+      "duration" : 1248
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test08_sortPrices"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HSPR786"
+  }, {
+    "name" : "thread",
+    "value" : "15536@DESKTOP-HSPR786.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "126ceae519680f3c.json",
+  "parameterValues" : [ "web" ]
+}

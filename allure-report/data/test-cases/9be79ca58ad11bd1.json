@@ -1,0 +1,263 @@
+{
+  "uid" : "9be79ca58ad11bd1",
+  "name" : "Test 02 - Add New Students",
+  "fullName" : "sanity.StudentAPI.test02_addStudent",
+  "historyId" : "d54f04dcd415675cfe10d7fb7348d95",
+  "time" : {
+    "start" : 1634199644322,
+    "stop" : 1634199644364,
+    "duration" : 42
+  },
+  "description" : "This Test Add Students From DDT File and Verify ",
+  "descriptionHtml" : "<p>This Test Add Students From DDT File and Verify</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1634199641151,
+      "stop" : 1634199641902,
+      "duration" : 751
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethode",
+    "time" : {
+      "start" : 1634199644308,
+      "stop" : 1634199644308,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1634199644366,
+      "stop" : 1634199644366,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1634199644593,
+      "stop" : 1634199644593,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.StudentAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.StudentAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02_addStudent"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.StudentAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HSPR786"
+  }, {
+    "name" : "thread",
+    "value" : "3560@DESKTOP-HSPR786.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  }, {
+    "name" : "arg0",
+    "value" : "Shilo"
+  }, {
+    "name" : "arg1",
+    "value" : "Al"
+  }, {
+    "name" : "arg2",
+    "value" : "shilo52@gmail.ozd"
+  }, {
+    "name" : "arg3",
+    "value" : "Astronomy"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "c83c8cae56687c66",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/22/allure/#testresult/c83c8cae56687c66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634199644322,
+          "stop" : 1634199644364,
+          "duration" : 42
+        }
+      }, {
+        "uid" : "42006df2bb685a10",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/21/allure/#testresult/42006df2bb685a10",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634195921488,
+          "stop" : 1634195921516,
+          "duration" : 28
+        }
+      }, {
+        "uid" : "790fe9b949b33494",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/20/allure/#testresult/790fe9b949b33494",
+        "status" : "broken",
+        "statusDetails" : "Connection refused: connect",
+        "time" : {
+          "start" : 1634194392514,
+          "stop" : 1634194396633,
+          "duration" : 4119
+        }
+      }, {
+        "uid" : "9f544fc70e7c7d26",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/19/allure/#testresult/9f544fc70e7c7d26",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634193879574,
+          "stop" : 1634193879672,
+          "duration" : 98
+        }
+      }, {
+        "uid" : "b69b598146b1d876",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/18/allure/#testresult/b69b598146b1d876",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634110792187,
+          "stop" : 1634110792205,
+          "duration" : 18
+        }
+      }, {
+        "uid" : "f75890bf46aa7857",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/17/allure/#testresult/f75890bf46aa7857",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634110792187,
+          "stop" : 1634110792205,
+          "duration" : 18
+        }
+      }, {
+        "uid" : "76a5ff70dfe9f68c",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/13/allure/#testresult/76a5ff70dfe9f68c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634104659793,
+          "stop" : 1634104659845,
+          "duration" : 52
+        }
+      }, {
+        "uid" : "699e1a4c901a31c4",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/11/allure/#testresult/699e1a4c901a31c4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633867034758,
+          "stop" : 1633867034806,
+          "duration" : 48
+        }
+      }, {
+        "uid" : "6f5c99ce413d29ab",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/10/allure/#testresult/6f5c99ce413d29ab",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633866783076,
+          "stop" : 1633866783123,
+          "duration" : 47
+        }
+      }, {
+        "uid" : "f3e12301b8d9bf5b",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/9/allure/#testresult/f3e12301b8d9bf5b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633685164937,
+          "stop" : 1633685164979,
+          "duration" : 42
+        }
+      }, {
+        "uid" : "2430bed891e54e9a",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/8/allure/#testresult/2430bed891e54e9a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633685009198,
+          "stop" : 1633685009230,
+          "duration" : 32
+        }
+      }, {
+        "uid" : "2f5c6bfc04a70c40",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/7/allure/#testresult/2f5c6bfc04a70c40",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633638163850,
+          "stop" : 1633638163896,
+          "duration" : 46
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "9be79ca58ad11bd1.json",
+  "parameterValues" : [ "api", "Shilo", "Al", "shilo52@gmail.ozd", "Astronomy" ]
+}

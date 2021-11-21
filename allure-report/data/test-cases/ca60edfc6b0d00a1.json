@@ -1,0 +1,129 @@
+{
+  "uid" : "ca60edfc6b0d00a1",
+  "name" : "Test09 - Change Currency from Dollars to Euro and back",
+  "fullName" : "sanity.nopCommerceWeb.test09_changeCurrency",
+  "historyId" : "7b0a9242736e4749946fa8515a78fd7a",
+  "time" : {
+    "start" : 1634204414810,
+    "stop" : 1634204423363,
+    "duration" : 8553
+  },
+  "description" : "This Test Changes Currency from Dollars to Euro and back and Verify",
+  "descriptionHtml" : "<p>This Test Changes Currency from Dollars to Euro and back and Verify</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1634204342614,
+      "stop" : 1634204347886,
+      "duration" : 5272
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethode",
+    "time" : {
+      "start" : 1634204414779,
+      "stop" : 1634204414791,
+      "duration" : 12
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1634204423367,
+      "stop" : 1634204423367,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1634204435130,
+      "stop" : 1634204436378,
+      "duration" : 1248
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test09_changeCurrency"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HSPR786"
+  }, {
+    "name" : "thread",
+    "value" : "15536@DESKTOP-HSPR786.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ca60edfc6b0d00a1.json",
+  "parameterValues" : [ "web" ]
+}

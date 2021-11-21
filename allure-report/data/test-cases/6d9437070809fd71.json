@@ -1,0 +1,218 @@
+{
+  "uid" : "6d9437070809fd71",
+  "name" : "Test04 - Delete Item From Wishlist",
+  "fullName" : "sanity.nopCommerceWeb.test04_DeleteFromWishlist",
+  "historyId" : "ea12004e65a0e08b229c6bfbbcb62b39",
+  "time" : {
+    "start" : 1634204513676,
+    "stop" : 1634204522901,
+    "duration" : 9225
+  },
+  "description" : "This Test Deletes Item from Wishlist ",
+  "descriptionHtml" : "<p>This Test Deletes Item from Wishlist</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1634204476512,
+      "stop" : 1634204483446,
+      "duration" : 6934
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethode",
+    "time" : {
+      "start" : 1634204513653,
+      "stop" : 1634204513670,
+      "duration" : 17
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This Test Deletes Item from Wishlist ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Delete from wishlist",
+      "time" : {
+        "start" : 1634204518748,
+        "stop" : 1634204521656,
+        "duration" : 2908
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "click on element",
+        "time" : {
+          "start" : 1634204518764,
+          "stop" : 1634204520344,
+          "duration" : 1580
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (5ad30dc506db5f07cdcebcf857d14cea)] -> class name: wishlist-label]"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "click on element",
+        "time" : {
+          "start" : 1634204520372,
+          "stop" : 1634204521656,
+          "duration" : 1284
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (5ad30dc506db5f07cdcebcf857d14cea)] -> class name: remove-btn]"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem1",
+        "value" : "[[ChromeDriver: chrome on XP (5ad30dc506db5f07cdcebcf857d14cea)] -> class name: wishlist-label]"
+      }, {
+        "name" : "elem2",
+        "value" : "Proxy element for: DefaultElementLocator 'By.className: remove-btn'"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 2
+    }, {
+      "name" : "Verify Wishlist Element",
+      "time" : {
+        "start" : 1634204522686,
+        "stop" : 1634204522785,
+        "duration" : 99
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on XP (5ad30dc506db5f07cdcebcf857d14cea)] -> xpath: //div[@class='header-links']/ul/li[3]]"
+      }, {
+        "name" : "expected",
+        "value" : "Wishlist (0)"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1634204522903,
+      "stop" : 1634204522903,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1634204597045,
+      "stop" : 1634204598124,
+      "duration" : 1079
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test04_DeleteFromWishlist"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HSPR786"
+  }, {
+    "name" : "thread",
+    "value" : "19760@DESKTOP-HSPR786.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6d9437070809fd71.json",
+  "parameterValues" : [ "web" ]
+}

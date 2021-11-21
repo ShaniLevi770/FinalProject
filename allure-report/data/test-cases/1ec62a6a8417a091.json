@@ -1,0 +1,236 @@
+{
+  "uid" : "1ec62a6a8417a091",
+  "name" : "Test10 - Enlist To nopCommerce Newsletter and Verify it",
+  "fullName" : "sanity.nopCommerceWeb.test10_enlistToNewsletter",
+  "historyId" : "a03b53e1688f2aa37b590690ba03bbce",
+  "time" : {
+    "start" : 1634204585604,
+    "stop" : 1634204592263,
+    "duration" : 6659
+  },
+  "description" : "This Test Enlists To nopCommerce Newsletter and Verify it",
+  "descriptionHtml" : "<p>This Test Enlists To nopCommerce Newsletter and Verify it</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1634204476512,
+      "stop" : 1634204483446,
+      "duration" : 6934
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethode",
+    "time" : {
+      "start" : 1634204585582,
+      "stop" : 1634204585599,
+      "duration" : 17
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This Test Enlists To nopCommerce Newsletter and Verify it",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Subscribe to Website Newsletter ",
+      "time" : {
+        "start" : 1634204585612,
+        "stop" : 1634204592097,
+        "duration" : 6485
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "scroll down",
+        "time" : {
+          "start" : 1634204585636,
+          "stop" : 1634204585678,
+          "duration" : 42
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (5ad30dc506db5f07cdcebcf857d14cea)] -> id: newsletter-email]"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "update text element",
+        "time" : {
+          "start" : 1634204588744,
+          "stop" : 1634204588973,
+          "duration" : 229
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (5ad30dc506db5f07cdcebcf857d14cea)] -> id: newsletter-email]"
+        }, {
+          "name" : "text",
+          "value" : "shani.sultan@gmail.com"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "click on element",
+        "time" : {
+          "start" : 1634204588999,
+          "stop" : 1634204589090,
+          "duration" : 91
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (5ad30dc506db5f07cdcebcf857d14cea)] -> class name: newsletter-subscribe-button]"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "username",
+        "value" : "shani.sultan@gmail.com"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 3
+    }, {
+      "name" : "Verify Text in Element",
+      "time" : {
+        "start" : 1634204592150,
+        "stop" : 1634204592198,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on XP (5ad30dc506db5f07cdcebcf857d14cea)] -> class name: newsletter-result]"
+      }, {
+        "name" : "expected",
+        "value" : "Thank you for signing up! A verification email has been sent. We appreciate your interest."
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 5
+  },
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1634204592266,
+      "stop" : 1634204592266,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1634204597045,
+      "stop" : 1634204598124,
+      "duration" : 1079
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test10_enlistToNewsletter"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HSPR786"
+  }, {
+    "name" : "thread",
+    "value" : "19760@DESKTOP-HSPR786.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1ec62a6a8417a091.json",
+  "parameterValues" : [ "web" ]
+}

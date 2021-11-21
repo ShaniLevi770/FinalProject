@@ -1,0 +1,576 @@
+{
+  "uid" : "66a16589be5ade1b",
+  "name" : "Test02 - verifyHeaders",
+  "fullName" : "sanity.nopCommerceWeb.test02_VerifyHeader",
+  "historyId" : "d627e860bbc06baa18005714f67defab",
+  "time" : {
+    "start" : 1634209433046,
+    "stop" : 1634209434338,
+    "duration" : 1292
+  },
+  "description" : "This Test Verify Some MainPage Elements ",
+  "descriptionHtml" : "<p>This Test Verify Some MainPage Elements</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1634209411983,
+      "stop" : 1634209416901,
+      "duration" : 4918
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethode",
+    "time" : {
+      "start" : 1634209433022,
+      "stop" : 1634209433038,
+      "duration" : 16
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This Test Verify Some MainPage Elements ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Verify Headers",
+      "time" : {
+        "start" : 1634209433047,
+        "stop" : 1634209434282,
+        "duration" : 1235
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "Verify Visibility Of Elements in List- softAssert",
+        "time" : {
+          "start" : 1634209433099,
+          "stop" : 1634209433836,
+          "duration" : 737
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elems",
+          "value" : "[[[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> xpath: //ul[@class='top-menu notmobile']/li], [[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> xpath: //ul[@class='top-menu notmobile']/li]]"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Verify Text in Element",
+        "time" : {
+          "start" : 1634209433888,
+          "stop" : 1634209433982,
+          "duration" : 94
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> xpath: //div[@class='page home-page']/div/div[2]/div/h2]"
+        }, {
+          "name" : "expected",
+          "value" : "Welcome to our store"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Verify Text in Element",
+        "time" : {
+          "start" : 1634209434031,
+          "stop" : 1634209434089,
+          "duration" : 58
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> css selector: body > div.master-wrapper-page > div.master-wrapper-content > div > div > div > div > div.category-grid.home-page-category-grid > div > div:nth-child(1) > div > h2 > a]"
+        }, {
+          "name" : "expected",
+          "value" : "Electronics"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Verify Text in Element",
+        "time" : {
+          "start" : 1634209434106,
+          "stop" : 1634209434147,
+          "duration" : 41
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> css selector: body > div.master-wrapper-page > div.master-wrapper-content > div > div > div > div > div.category-grid.home-page-category-grid > div > div:nth-child(2) > div > h2 > a]"
+        }, {
+          "name" : "expected",
+          "value" : "Apparel"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Verify Text in Element",
+        "time" : {
+          "start" : 1634209434176,
+          "stop" : 1634209434220,
+          "duration" : 44
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> css selector: body > div.master-wrapper-page > div.master-wrapper-content > div > div > div > div > div.category-grid.home-page-category-grid > div > div:nth-child(3) > div > h2 > a]"
+        }, {
+          "name" : "expected",
+          "value" : "Digital downloads"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "Verify Text in Element",
+        "time" : {
+          "start" : 1634209434244,
+          "stop" : 1634209434282,
+          "duration" : 38
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> xpath: //ul[@class='top-menu notmobile']/li[1]]"
+        }, {
+          "name" : "expected",
+          "value" : "Computers"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 6
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 7
+  },
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1634209434352,
+      "stop" : 1634209434352,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1634209515759,
+      "stop" : 1634209516786,
+      "duration" : 1027
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02_VerifyHeader"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HSPR786"
+  }, {
+    "name" : "thread",
+    "value" : "19884@DESKTOP-HSPR786.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a19828aa7e8c04ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634209224662,
+        "stop" : 1634209225423,
+        "duration" : 761
+      }
+    }, {
+      "uid" : "1240d457264230d4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634205296857,
+        "stop" : 1634205297502,
+        "duration" : 645
+      }
+    }, {
+      "uid" : "196cacd47c183b46",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634205143117,
+        "stop" : 1634205143740,
+        "duration" : 623
+      }
+    }, {
+      "uid" : "b17857cee46e7dbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634205017738,
+        "stop" : 1634205018364,
+        "duration" : 626
+      }
+    }, {
+      "uid" : "aaea5112d444ebbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634204501562,
+        "stop" : 1634204502728,
+        "duration" : 1166
+      }
+    }, {
+      "uid" : "be65d5b3c7098138",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634204359194,
+        "stop" : 1634204360021,
+        "duration" : 827
+      }
+    }, {
+      "uid" : "cd99ef4cf7752251",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634204227022,
+        "stop" : 1634204228123,
+        "duration" : 1101
+      }
+    }, {
+      "uid" : "c94a9888adb7a164",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634204051573,
+        "stop" : 1634204052486,
+        "duration" : 913
+      }
+    }, {
+      "uid" : "38b50679c351ca73",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634203918073,
+        "stop" : 1634203919055,
+        "duration" : 982
+      }
+    }, {
+      "uid" : "417ae0fa1949c143",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634202292115,
+        "stop" : 1634202293081,
+        "duration" : 966
+      }
+    }, {
+      "uid" : "1f6d12fe44f2cbb6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634202200951,
+        "stop" : 1634202201860,
+        "duration" : 909
+      }
+    }, {
+      "uid" : "87bc13c33f813320",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634202132402,
+        "stop" : 1634202133231,
+        "duration" : 829
+      }
+    }, {
+      "uid" : "f0105a51a2752fb0",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634202046907,
+        "stop" : 1634202047740,
+        "duration" : 833
+      }
+    }, {
+      "uid" : "77720588b84eff32",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634201912490,
+        "stop" : 1634201913328,
+        "duration" : 838
+      }
+    }, {
+      "uid" : "bba1acb9434eae7c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634201836572,
+        "stop" : 1634201837339,
+        "duration" : 767
+      }
+    }, {
+      "uid" : "70b512845b4d686d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634201771288,
+        "stop" : 1634201772133,
+        "duration" : 845
+      }
+    }, {
+      "uid" : "e82c211095f93f65",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634201631201,
+        "stop" : 1634201632095,
+        "duration" : 894
+      }
+    }, {
+      "uid" : "a98575b8769382bf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634201476287,
+        "stop" : 1634201477102,
+        "duration" : 815
+      }
+    }, {
+      "uid" : "919cdec9521dbcbf",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634201410474,
+        "stop" : 1634201411384,
+        "duration" : 910
+      }
+    }, {
+      "uid" : "f230bc1cc507ca47",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634200808286,
+        "stop" : 1634200809194,
+        "duration" : 908
+      }
+    }, {
+      "uid" : "8dc0e0d323ad0779",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634200536436,
+        "stop" : 1634200537398,
+        "duration" : 962
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 14,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "56c1c1ca0509f739",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/22/allure/#testresult/56c1c1ca0509f739",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634204501562,
+          "stop" : 1634204502728,
+          "duration" : 1166
+        }
+      }, {
+        "uid" : "fd77d26a2858f207",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/21/allure/#testresult/fd77d26a2858f207",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634195972377,
+          "stop" : 1634195973485,
+          "duration" : 1108
+        }
+      }, {
+        "uid" : "7de20f930c39d527",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/20/allure/#testresult/7de20f930c39d527",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634194369156,
+          "stop" : 1634194371650,
+          "duration" : 2494
+        }
+      }, {
+        "uid" : "58c9459f1431bce8",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/19/allure/#testresult/58c9459f1431bce8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634193863033,
+          "stop" : 1634193868452,
+          "duration" : 5419
+        }
+      }, {
+        "uid" : "858afe9767df8010",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/18/allure/#testresult/858afe9767df8010",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634193506533,
+          "stop" : 1634193507707,
+          "duration" : 1174
+        }
+      }, {
+        "uid" : "edffcb600d0a3bb2",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/17/allure/#testresult/edffcb600d0a3bb2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634192398554,
+          "stop" : 1634192399797,
+          "duration" : 1243
+        }
+      }, {
+        "uid" : "62a1b95fcac08c7a",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/16/allure/#testresult/62a1b95fcac08c7a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634110196479,
+          "stop" : 1634110198116,
+          "duration" : 1637
+        }
+      }, {
+        "uid" : "53197b23a2a50390",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/15/allure/#testresult/53197b23a2a50390",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634108753215,
+          "stop" : 1634108755106,
+          "duration" : 1891
+        }
+      }, {
+        "uid" : "c9783e8a368067fe",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/14/allure/#testresult/c9783e8a368067fe",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634107901237,
+          "stop" : 1634107902561,
+          "duration" : 1324
+        }
+      }, {
+        "uid" : "9a57573bd01c1b3b",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/13/allure/#testresult/9a57573bd01c1b3b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634107124754,
+          "stop" : 1634107125444,
+          "duration" : 690
+        }
+      }, {
+        "uid" : "7877e35aa831253e",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/11/allure/#testresult/7877e35aa831253e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633867027663,
+          "stop" : 1633867031219,
+          "duration" : 3556
+        }
+      }, {
+        "uid" : "611775fb7d699a59",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/10/allure/#testresult/611775fb7d699a59",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633866774005,
+          "stop" : 1633866778922,
+          "duration" : 4917
+        }
+      }, {
+        "uid" : "e740e4f8e203b54d",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/4/allure/#testresult/e740e4f8e203b54d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633609384636,
+          "stop" : 1633609385317,
+          "duration" : 681
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "66a16589be5ade1b.json",
+  "parameterValues" : [ "web" ]
+}

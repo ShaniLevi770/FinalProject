@@ -1,0 +1,473 @@
+{
+  "uid" : "66d6e8c2a7d44e0f",
+  "name" : "Test06 - Verify Search Results",
+  "fullName" : "sanity.nopCommerceWeb.test06_Verify_SearchResults",
+  "historyId" : "54725a266edad7b8fbc8c071181bb2e9",
+  "time" : {
+    "start" : 1634209453613,
+    "stop" : 1634209460317,
+    "duration" : 6704
+  },
+  "description" : "This Test Verify Search Results For Strings Accepted From Data Provider Method",
+  "descriptionHtml" : "<p>This Test Verify Search Results For Strings Accepted From Data Provider Method</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1634209411983,
+      "stop" : 1634209416901,
+      "duration" : 4918
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethode",
+    "time" : {
+      "start" : 1634209453597,
+      "stop" : 1634209453608,
+      "duration" : 11
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This Test Verify Search Results For Strings Accepted From Data Provider Method",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "Business Flow: Search and Verify elements",
+      "time" : {
+        "start" : 1634209453613,
+        "stop" : 1634209460238,
+        "duration" : 6625
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "update text element as Human",
+        "time" : {
+          "start" : 1634209453637,
+          "stop" : 1634209456840,
+          "duration" : 3203
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> xpath: //*[@class='search-box-text ui-autocomplete-input']]"
+        }, {
+          "name" : "text",
+          "value" : "pies"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : "click on element",
+        "time" : {
+          "start" : 1634209456862,
+          "stop" : 1634209458088,
+          "duration" : 1226
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> xpath: //*[@class='button-1 search-box-button']]"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      }, {
+        "name" : " Verify Existence of Element",
+        "time" : {
+          "start" : 1634209458122,
+          "stop" : 1634209460194,
+          "duration" : 2072
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ {
+          "name" : "elem",
+          "value" : "[[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> xpath: /html/body/div[6]/div[3]/div/div[2]/div/div[2]/div[3]/div/div[2]/div/div/div/div/div[2]/h2/a]"
+        } ],
+        "shouldDisplayMessage" : false,
+        "attachmentsCount" : 0,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "search_text",
+        "value" : "pies"
+      }, {
+        "name" : "ShouldExists",
+        "value" : "exists"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 3
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1634209460319,
+      "stop" : 1634209460319,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1634209515759,
+      "stop" : 1634209516786,
+      "duration" : 1027
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test06_Verify_SearchResults"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HSPR786"
+  }, {
+    "name" : "thread",
+    "value" : "19884@DESKTOP-HSPR786.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  }, {
+    "name" : "arg0",
+    "value" : "pies"
+  }, {
+    "name" : "arg1",
+    "value" : "exists"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d7d814bd6a5c17a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634209241416,
+        "stop" : 1634209246942,
+        "duration" : 5526
+      }
+    }, {
+      "uid" : "305a11fe79de4112",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634205315367,
+        "stop" : 1634205321884,
+        "duration" : 6517
+      }
+    }, {
+      "uid" : "fbabb2d4270ea6c8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634205159627,
+        "stop" : 1634205165685,
+        "duration" : 6058
+      }
+    }, {
+      "uid" : "7133845d11229bbc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634205035170,
+        "stop" : 1634205040698,
+        "duration" : 5528
+      }
+    }, {
+      "uid" : "d4fd95797aa80242",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634204531029,
+        "stop" : 1634204539117,
+        "duration" : 8088
+      }
+    }, {
+      "uid" : "dc8dd11a79910434",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634204377658,
+        "stop" : 1634204384570,
+        "duration" : 6912
+      }
+    }, {
+      "uid" : "cde01a206ce7a179",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634204246656,
+        "stop" : 1634204253160,
+        "duration" : 6504
+      }
+    }, {
+      "uid" : "af021b91245b5d5f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634204070866,
+        "stop" : 1634204079352,
+        "duration" : 8486
+      }
+    }, {
+      "uid" : "d216e5a13034b56f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634203934669,
+        "stop" : 1634203941061,
+        "duration" : 6392
+      }
+    }, {
+      "uid" : "7bfbf66112769ffe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634202311625,
+        "stop" : 1634202319519,
+        "duration" : 7894
+      }
+    }, {
+      "uid" : "33af351ecfc62795",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634202066747,
+        "stop" : 1634202073830,
+        "duration" : 7083
+      }
+    }, {
+      "uid" : "b29c82156f50bee9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634201858173,
+        "stop" : 1634201865148,
+        "duration" : 6975
+      }
+    }, {
+      "uid" : "5cd50b6703329849",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634201641960,
+        "stop" : 1634201648065,
+        "duration" : 6105
+      }
+    }, {
+      "uid" : "a1621022c59a1ea2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634201494111,
+        "stop" : 1634201499572,
+        "duration" : 5461
+      }
+    }, {
+      "uid" : "a3eee1551e26ae94",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634201418782,
+        "stop" : 1634201425084,
+        "duration" : 6302
+      }
+    }, {
+      "uid" : "1b65e740343f1ffd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634200553245,
+        "stop" : 1634200560139,
+        "duration" : 6894
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 13,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "db5b4b4f4d39f55f",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/22/allure/#testresult/db5b4b4f4d39f55f",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634204531029,
+          "stop" : 1634204539117,
+          "duration" : 8088
+        }
+      }, {
+        "uid" : "c76b65290f4fbb35",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/21/allure/#testresult/c76b65290f4fbb35",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634195994827,
+          "stop" : 1634196000347,
+          "duration" : 5520
+        }
+      }, {
+        "uid" : "4d9487225283fc5e",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/20/allure/#testresult/4d9487225283fc5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634194399306,
+          "stop" : 1634194406637,
+          "duration" : 7331
+        }
+      }, {
+        "uid" : "701a045a61cb0b60",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/19/allure/#testresult/701a045a61cb0b60",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634193899864,
+          "stop" : 1634193907335,
+          "duration" : 7471
+        }
+      }, {
+        "uid" : "368930c6c2a2e566",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/18/allure/#testresult/368930c6c2a2e566",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634193531092,
+          "stop" : 1634193537214,
+          "duration" : 6122
+        }
+      }, {
+        "uid" : "77dbfd5cd225f910",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/17/allure/#testresult/77dbfd5cd225f910",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634192420730,
+          "stop" : 1634192428306,
+          "duration" : 7576
+        }
+      }, {
+        "uid" : "79b9fd455f93629a",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/16/allure/#testresult/79b9fd455f93629a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634110218823,
+          "stop" : 1634110225724,
+          "duration" : 6901
+        }
+      }, {
+        "uid" : "e37e75193f95adea",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/15/allure/#testresult/e37e75193f95adea",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634108777145,
+          "stop" : 1634108784039,
+          "duration" : 6894
+        }
+      }, {
+        "uid" : "7f2a3126a13d4438",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/13/allure/#testresult/7f2a3126a13d4438",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634104294171,
+          "stop" : 1634104302573,
+          "duration" : 8402
+        }
+      }, {
+        "uid" : "9fcefcf9cad9ce2d",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/11/allure/#testresult/9fcefcf9cad9ce2d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633867055115,
+          "stop" : 1633867062245,
+          "duration" : 7130
+        }
+      }, {
+        "uid" : "5696464b5b8c71e8",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/10/allure/#testresult/5696464b5b8c71e8",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633866807220,
+          "stop" : 1633866814286,
+          "duration" : 7066
+        }
+      }, {
+        "uid" : "deb3ce1d82113cef",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/4/allure/#testresult/deb3ce1d82113cef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633609401941,
+          "stop" : 1633609407516,
+          "duration" : 5575
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "66d6e8c2a7d44e0f.json",
+  "parameterValues" : [ "web", "pies", "exists" ]
+}

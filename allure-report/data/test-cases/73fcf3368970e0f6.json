@@ -1,0 +1,432 @@
+{
+  "uid" : "73fcf3368970e0f6",
+  "name" : "Test08 - Sort Items By Price Low to High and Verify it ",
+  "fullName" : "sanity.nopCommerceWeb.test08_sortPrices",
+  "historyId" : "51ecf099a6eb1244f1845e4b827baa5a",
+  "time" : {
+    "start" : 1634209489793,
+    "stop" : 1634209497958,
+    "duration" : 8165
+  },
+  "description" : "This Test Sorts Items On Page By Price Low to High",
+  "descriptionHtml" : "<p>This Test Sorts Items On Page By Price Low to High</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1634209411983,
+      "stop" : 1634209416901,
+      "duration" : 4918
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethode",
+    "time" : {
+      "start" : 1634209489776,
+      "stop" : 1634209489788,
+      "duration" : 12
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "This Test Sorts Items On Page By Price Low to High",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "click on element",
+      "time" : {
+        "start" : 1634209489818,
+        "stop" : 1634209490968,
+        "duration" : 1150
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> xpath: //ul[@class='top-menu notmobile']/li[2]]"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "click on element",
+      "time" : {
+        "start" : 1634209490988,
+        "stop" : 1634209492150,
+        "duration" : 1162
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> xpath: //img[@alt='Picture for category Cell phones']]"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "update dropdown element",
+      "time" : {
+        "start" : 1634209492180,
+        "stop" : 1634209492423,
+        "duration" : 243
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elem",
+        "value" : "[[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> id: products-orderby]"
+      }, {
+        "name" : "text",
+        "value" : "Price: Low to High"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "Business Flow: Verify Prices Are Sorted From Low To High",
+      "time" : {
+        "start" : 1634209497480,
+        "stop" : 1634209497897,
+        "duration" : 417
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ {
+        "name" : "elems",
+        "value" : "[[[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> css selector: span.price.actual-price], [[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> css selector: span.price.actual-price], [[ChromeDriver: chrome on XP (be817ab908e2bf5bf4b098c0ead4a4bc)] -> css selector: span.price.actual-price]]"
+      } ],
+      "shouldDisplayMessage" : false,
+      "attachmentsCount" : 0,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1634209497960,
+      "stop" : 1634209497960,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1634209515759,
+      "stop" : 1634209516786,
+      "duration" : 1027
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test08_sortPrices"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HSPR786"
+  }, {
+    "name" : "thread",
+    "value" : "19884@DESKTOP-HSPR786.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "7bd459579c7da285",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634209268471,
+        "stop" : 1634209275242,
+        "duration" : 6771
+      }
+    }, {
+      "uid" : "88021d27e9492708",
+      "status" : "broken",
+      "statusDetails" : "1",
+      "time" : {
+        "start" : 1634205344928,
+        "stop" : 1634205352604,
+        "duration" : 7676
+      }
+    }, {
+      "uid" : "29ca1bfdbe5d088c",
+      "status" : "broken",
+      "statusDetails" : "1",
+      "time" : {
+        "start" : 1634205187493,
+        "stop" : 1634205194195,
+        "duration" : 6702
+      }
+    }, {
+      "uid" : "a6d0e68577a34af2",
+      "status" : "broken",
+      "statusDetails" : "1",
+      "time" : {
+        "start" : 1634205063846,
+        "stop" : 1634205070597,
+        "duration" : 6751
+      }
+    }, {
+      "uid" : "d96b4fb7dc1966ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634204570267,
+        "stop" : 1634204579095,
+        "duration" : 8828
+      }
+    }, {
+      "uid" : "126ceae519680f3c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634204407856,
+        "stop" : 1634204414768,
+        "duration" : 6912
+      }
+    }, {
+      "uid" : "f2af33c7fa7ec3da",
+      "status" : "broken",
+      "statusDetails" : "1",
+      "time" : {
+        "start" : 1634204275643,
+        "stop" : 1634204283036,
+        "duration" : 7393
+      }
+    }, {
+      "uid" : "9b77e257fbd9d8e3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634204104106,
+        "stop" : 1634204111650,
+        "duration" : 7544
+      }
+    }, {
+      "uid" : "6df22b77d5a92dac",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634203965275,
+        "stop" : 1634203973098,
+        "duration" : 7823
+      }
+    }, {
+      "uid" : "4b902324a45c07df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1634200581594,
+        "stop" : 1634200589814,
+        "duration" : 8220
+      }
+    } ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 3,
+        "skipped" : 0,
+        "passed" : 11,
+        "unknown" : 0,
+        "total" : 14
+      },
+      "items" : [ {
+        "uid" : "6835a8fb6c953ead",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/22/allure/#testresult/6835a8fb6c953ead",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634204570267,
+          "stop" : 1634204579095,
+          "duration" : 8828
+        }
+      }, {
+        "uid" : "a5ac66a3dc7f7559",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/21/allure/#testresult/a5ac66a3dc7f7559",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634196025281,
+          "stop" : 1634196032782,
+          "duration" : 7501
+        }
+      }, {
+        "uid" : "1b42c85f1888c973",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/20/allure/#testresult/1b42c85f1888c973",
+        "status" : "broken",
+        "statusDetails" : "1",
+        "time" : {
+          "start" : 1634194435335,
+          "stop" : 1634194442054,
+          "duration" : 6719
+        }
+      }, {
+        "uid" : "70608edf9f885ffb",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/19/allure/#testresult/70608edf9f885ffb",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634193937743,
+          "stop" : 1634193945646,
+          "duration" : 7903
+        }
+      }, {
+        "uid" : "321f6aa225fa9249",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/18/allure/#testresult/321f6aa225fa9249",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634193565234,
+          "stop" : 1634193571934,
+          "duration" : 6700
+        }
+      }, {
+        "uid" : "9e7ad55aae4449ef",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/17/allure/#testresult/9e7ad55aae4449ef",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634192458584,
+          "stop" : 1634192465243,
+          "duration" : 6659
+        }
+      }, {
+        "uid" : "20dda34f20ea6d6",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/16/allure/#testresult/20dda34f20ea6d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634110255684,
+          "stop" : 1634110262256,
+          "duration" : 6572
+        }
+      }, {
+        "uid" : "d499a10ac2f950e6",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/15/allure/#testresult/d499a10ac2f950e6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634108812568,
+          "stop" : 1634108818675,
+          "duration" : 6107
+        }
+      }, {
+        "uid" : "a7b62557742db8af",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/14/allure/#testresult/a7b62557742db8af",
+        "status" : "broken",
+        "statusDetails" : "1",
+        "time" : {
+          "start" : 1634107928070,
+          "stop" : 1634107934397,
+          "duration" : 6327
+        }
+      }, {
+        "uid" : "fe434cfde1df8cf4",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/13/allure/#testresult/fe434cfde1df8cf4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634107151014,
+          "stop" : 1634107157386,
+          "duration" : 6372
+        }
+      }, {
+        "uid" : "346a76b793ea3996",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/11/allure/#testresult/346a76b793ea3996",
+        "status" : "broken",
+        "statusDetails" : "1",
+        "time" : {
+          "start" : 1633867090424,
+          "stop" : 1633867096121,
+          "duration" : 5697
+        }
+      }, {
+        "uid" : "5b061087d376cba5",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/10/allure/#testresult/5b061087d376cba5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633866840936,
+          "stop" : 1633866847247,
+          "duration" : 6311
+        }
+      }, {
+        "uid" : "b5fabdf8635600f1",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/4/allure/#testresult/b5fabdf8635600f1",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633609434656,
+          "stop" : 1633609438673,
+          "duration" : 4017
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "73fcf3368970e0f6.json",
+  "parameterValues" : [ "web" ]
+}

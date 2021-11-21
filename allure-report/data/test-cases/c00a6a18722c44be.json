@@ -1,0 +1,251 @@
+{
+  "uid" : "c00a6a18722c44be",
+  "name" : "deleteLastStudent",
+  "fullName" : "sanity.StudentAPI.deleteLastStudent",
+  "historyId" : "1570a098c9996a8dd0f3124c3a231088",
+  "time" : {
+    "start" : 1634199642064,
+    "stop" : 1634199643400,
+    "duration" : 1336
+  },
+  "description" : "This Test Delete Student and Verify ",
+  "descriptionHtml" : "<p>This Test Delete Student and Verify</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1634199641151,
+      "stop" : 1634199641902,
+      "duration" : 751
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethode",
+    "time" : {
+      "start" : 1634199641912,
+      "stop" : 1634199641912,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1634199643412,
+      "stop" : 1634199643412,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1634199644593,
+      "stop" : 1634199644593,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.StudentAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.StudentAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "deleteLastStudent"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.StudentAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HSPR786"
+  }, {
+    "name" : "thread",
+    "value" : "3560@DESKTOP-HSPR786.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 12,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "a9bc9f2f61357516",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/22/allure/#testresult/a9bc9f2f61357516",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634199642064,
+          "stop" : 1634199643400,
+          "duration" : 1336
+        }
+      }, {
+        "uid" : "75461d04a29f9f66",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/21/allure/#testresult/75461d04a29f9f66",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634195917286,
+          "stop" : 1634195919873,
+          "duration" : 2587
+        }
+      }, {
+        "uid" : "158d5eafb0dad149",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/20/allure/#testresult/158d5eafb0dad149",
+        "status" : "broken",
+        "statusDetails" : "Connection refused: connect",
+        "time" : {
+          "start" : 1634194362340,
+          "stop" : 1634194373528,
+          "duration" : 11188
+        }
+      }, {
+        "uid" : "dcb26f63959fc5a5",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/19/allure/#testresult/dcb26f63959fc5a5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634193859616,
+          "stop" : 1634193873037,
+          "duration" : 13421
+        }
+      }, {
+        "uid" : "8fd16bffb2848b95",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/18/allure/#testresult/8fd16bffb2848b95",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634110789488,
+          "stop" : 1634110791135,
+          "duration" : 1647
+        }
+      }, {
+        "uid" : "397193860c0195d2",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/17/allure/#testresult/397193860c0195d2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634110789488,
+          "stop" : 1634110791135,
+          "duration" : 1647
+        }
+      }, {
+        "uid" : "d6fbb05a66b2bf39",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/13/allure/#testresult/d6fbb05a66b2bf39",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634104655044,
+          "stop" : 1634104657957,
+          "duration" : 2913
+        }
+      }, {
+        "uid" : "5252bc4807d93880",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/11/allure/#testresult/5252bc4807d93880",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633867023937,
+          "stop" : 1633867030709,
+          "duration" : 6772
+        }
+      }, {
+        "uid" : "296a2f1e151a0c43",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/10/allure/#testresult/296a2f1e151a0c43",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633866767084,
+          "stop" : 1633866777212,
+          "duration" : 10128
+        }
+      }, {
+        "uid" : "700819615c65dc2c",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/9/allure/#testresult/700819615c65dc2c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633685158429,
+          "stop" : 1633685162148,
+          "duration" : 3719
+        }
+      }, {
+        "uid" : "b92d4b390e751bf7",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/8/allure/#testresult/b92d4b390e751bf7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633685003296,
+          "stop" : 1633685006087,
+          "duration" : 2791
+        }
+      }, {
+        "uid" : "ade1118def62b42a",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/7/allure/#testresult/ade1118def62b42a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633638152600,
+          "stop" : 1633638156521,
+          "duration" : 3921
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "c00a6a18722c44be.json",
+  "parameterValues" : [ "api" ]
+}

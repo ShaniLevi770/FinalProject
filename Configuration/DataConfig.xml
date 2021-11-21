@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Enviorment>
+    <!--TimeOUT-->
+    <Timeout>5</Timeout>
+
+    <!--General-->
+    <!-->web or mobile or API or desktop or electron-->
+    <!--<PlatformName>web</PlatformName>-->
+
+
+    <!--Mobile-->
+    <UDID>fdcbd306</UDID>
+    <AppPackage1>com.experitest.ExperiBank</AppPackage1>
+    <AppActivity1>.LoginActivity</AppActivity1>
+    <AppPackage2>com.example.android.apis</AppPackage2>
+    <AppActivity2>.ApiDemos</AppActivity2>
+    <AppiumServer>http://localhost:4723/wd/hub</AppiumServer>
+    <usernamemobile>company</usernamemobile>
+    <passwordmobile>company</passwordmobile>
+
+    <swipe1_statrx>324</swipe1_statrx>
+    <swipe1_statry>416</swipe1_statry>
+    <swipe1_endx>235</swipe1_endx>
+    <swipe1_endy>416</swipe1_endy>
+    <swipe1_duration>3000</swipe1_duration>
+
+    <swipe2_statrx>232</swipe2_statrx>
+    <swipe2_statry>524</swipe2_statry>
+    <swipe2_endx>148</swipe2_endx>
+    <swipe2_endy>524</swipe2_endy>
+    <swipe2_duration>3600</swipe2_duration>
+
+    <!--Web-->
+    <Url>https://demo.nopcommerce.com/</Url>
+    <BrowserName>chrome</BrowserName>
+    <imageRepo>C:\\Automation\\FinalProject_nopCommerce\\imageRepository\\</imageRepo>
+    <usernameweb>shani.sultan@gmail.com</usernameweb>
+    <passwordweb>130785sh</passwordweb>
+
+    <!--API-->
+    <urlAPI>http://localhost:9000</urlAPI>
+    <userAPI>shani.sultan@gmail.com</userAPI>
+    <passwordAPI>Jerusalem2000</passwordAPI>
+    <resourceOfStudent>/student/</resourceOfStudent>
+    <course1>Java Course</course1>
+    <course2>C# Course</course2>
+    <course3>Python Course</course3>
+
+    <!--Electron-->
+    <electronDriverPath>./Drivers/electrondriver.exe</electronDriverPath>
+    <electronAppPath>C:/Users/97250/AppData/Local/Programs/todolist/TodoList.exe</electronAppPath>
+    C:/Users/97250/Downloads/Todolist-Setup-0.29.5.exe
+    C:\Users\97250\AppData\Local\Programs\todolist
+    <!--C:/Users/97250/Downloads/electron-api-demos-windows/Electron API Demos-win32-ia32.exe-->
+
+    <!--desktop-->
+    <CalculatorApp>Microsoft.WindowsCalculator_8wekyb3d8bbwe!App</CalculatorApp>
+    <AppiumServerDesktop>http://127.0.0.1:4723</AppiumServerDesktop>
+
+    <!--DB-->
+    <DBURL>jdbc:mysql://sql6.freemysqlhosting.net:3306/sql6441160</DBURL>
+    <DBUsername>sql6441160</DBUsername>
+    <DBPassword>GDnwrGz3KR</DBPassword>
+
+    <!--DATA Driven Testing -->
+    <DDTFileWeb>./DDT_Files/users.csv</DDTFileWeb>
+    <DDTFileMobile>./DDT_Files/title.csv</DDTFileMobile>
+    <DDTFileAPI>./DDT_Files/newStudents.csv</DDTFileAPI>
+
+<!--    jenkins server-->
+<!--    java -jar jenkins.war (minus-minus)httpPort=9090-->
+<!--    http://localhost:9090-->
+</Enviorment>

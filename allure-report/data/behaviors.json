@@ -1,0 +1,291 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "deleteLastStudent",
+    "uid" : "c00a6a18722c44be",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634199642064,
+      "stop" : 1634199643400,
+      "duration" : 1336
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  }, {
+    "name" : "Get Student Properties",
+    "uid" : "e4824f7fedde0592",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634199643419,
+      "stop" : 1634199643884,
+      "duration" : 465
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  }, {
+    "name" : "Test 02 - Add New Students",
+    "uid" : "942a04404fb65fab",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634199643910,
+      "stop" : 1634199644198,
+      "duration" : 288
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api", "Orson", "Noa", "noatur@gmail.owg", " Computer Science" ]
+  }, {
+    "name" : "Test 02 - Add New Students",
+    "uid" : "88472edc01368169",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634199644213,
+      "stop" : 1634199644248,
+      "duration" : 35
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api", "Noga", "Golan", "nogatur@gmail.org", " Oceanography" ]
+  }, {
+    "name" : "Test 02 - Add New Students",
+    "uid" : "643252976bcea1fc",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634199644264,
+      "stop" : 1634199644295,
+      "duration" : 31
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api", "Guy", "David", "guydavid@gmail.oed", " Geology" ]
+  }, {
+    "name" : "Test 02 - Add New Students",
+    "uid" : "9be79ca58ad11bd1",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634199644322,
+      "stop" : 1634199644364,
+      "duration" : 42
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api", "Shilo", "Al", "shilo52@gmail.ozd", "Astronomy" ]
+  }, {
+    "name" : "test03_updateStudent",
+    "uid" : "36ce4496d29abd91",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634199644376,
+      "stop" : 1634199644580,
+      "duration" : 204
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "api" ]
+  }, {
+    "name" : "StartSession",
+    "uid" : "b897d854b2478137",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "broken",
+    "time" : {
+      "start" : 1634201739230,
+      "stop" : 1634201739240,
+      "duration" : 10
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test04 - delete From Wishlist",
+    "uid" : "b1eaf3eef2c9da30",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1634201739433,
+      "stop" : 1634201739437,
+      "duration" : 4
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "Test05 - Verify Logo Visually",
+    "uid" : "63ed0bff5c508463",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634209237729,
+      "stop" : 1634209241386,
+      "duration" : 3657
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test01 - Register/Login",
+    "uid" : "fdb7bb5ce63d7f8b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634209417148,
+      "stop" : 1634209432982,
+      "duration" : 15834
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test02 - verifyHeaders",
+    "uid" : "66a16589be5ade1b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634209433046,
+      "stop" : 1634209434338,
+      "duration" : 1292
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test03 - Adds Items To Wish List",
+    "uid" : "c19048d4ffb258a2",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634209434371,
+      "stop" : 1634209444782,
+      "duration" : 10411
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test04 - Delete Item From Wishlist",
+    "uid" : "b89301b7f4da6bcf",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634209444810,
+      "stop" : 1634209453569,
+      "duration" : 8759
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test06 - Verify Search Results",
+    "uid" : "66d6e8c2a7d44e0f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634209453613,
+      "stop" : 1634209460317,
+      "duration" : 6704
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web", "pies", "exists" ]
+  }, {
+    "name" : "Test06 - Verify Search Results",
+    "uid" : "83c9b23cd86fc40",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634209460338,
+      "stop" : 1634209475238,
+      "duration" : 14900
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web", "ploy", "not-exists" ]
+  }, {
+    "name" : "Test06 - Verify Search Results",
+    "uid" : "d68446db4d6f1c78",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634209475263,
+      "stop" : 1634209483674,
+      "duration" : 8411
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web", "pride", "exists" ]
+  }, {
+    "name" : "Test07 - Add Item To Shopping Cart",
+    "uid" : "19ae90b97eaadf71",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634209483701,
+      "stop" : 1634209489760,
+      "duration" : 6059
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test08 - Sort Items By Price Low to High and Verify it ",
+    "uid" : "73fcf3368970e0f6",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634209489793,
+      "stop" : 1634209497958,
+      "duration" : 8165
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test09 - Change Currency from Dollars to Euro and back",
+    "uid" : "6658bd834cd93062",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634209497982,
+      "stop" : 1634209503989,
+      "duration" : 6007
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test10 - Enlist To nopCommerce Newsletter and Verify it",
+    "uid" : "1d42ebd1e93e7f0f",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634209504028,
+      "stop" : 1634209510535,
+      "duration" : 6507
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  }, {
+    "name" : "Test11 - Switch to Popup Window ",
+    "uid" : "335bd56506b7875d",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1634209510548,
+      "stop" : 1634209515739,
+      "duration" : 5191
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "web" ]
+  } ]
+}

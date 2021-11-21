@@ -1,0 +1,267 @@
+{
+  "uid" : "643252976bcea1fc",
+  "name" : "Test 02 - Add New Students",
+  "fullName" : "sanity.StudentAPI.test02_addStudent",
+  "historyId" : "2b57681434984c39de3c1510e47d4be1",
+  "time" : {
+    "start" : 1634199644264,
+    "stop" : 1634199644295,
+    "duration" : 31
+  },
+  "description" : "This Test Add Students From DDT File and Verify ",
+  "descriptionHtml" : "<p>This Test Add Students From DDT File and Verify</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1634199641151,
+      "stop" : 1634199641902,
+      "duration" : 751
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethode",
+    "time" : {
+      "start" : 1634199644256,
+      "stop" : 1634199644256,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1634199644300,
+      "stop" : 1634199644300,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1634199644593,
+      "stop" : 1634199644593,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.StudentAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.StudentAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02_addStudent"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.StudentAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HSPR786"
+  }, {
+    "name" : "thread",
+    "value" : "3560@DESKTOP-HSPR786.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  }, {
+    "name" : "arg0",
+    "value" : "Guy"
+  }, {
+    "name" : "arg1",
+    "value" : "David"
+  }, {
+    "name" : "arg2",
+    "value" : "guydavid@gmail.oed"
+  }, {
+    "name" : "arg3",
+    "value" : " Geology"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "d90141cc9f50441c",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/22/allure/#testresult/d90141cc9f50441c",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634199644264,
+          "stop" : 1634199644295,
+          "duration" : 31
+        }
+      }, {
+        "uid" : "4112cd70ecf424e",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/21/allure/#testresult/4112cd70ecf424e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634195921440,
+          "stop" : 1634195921466,
+          "duration" : 26
+        }
+      }, {
+        "uid" : "36f34346eb2035b5",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/20/allure/#testresult/36f34346eb2035b5",
+        "status" : "broken",
+        "statusDetails" : "Connection refused: connect",
+        "time" : {
+          "start" : 1634194387876,
+          "stop" : 1634194392491,
+          "duration" : 4615
+        }
+      }, {
+        "uid" : "9590c0429ea6d53d",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/19/allure/#testresult/9590c0429ea6d53d",
+        "status" : "failed",
+        "statusDetails" : "did not expect to find [true] but found [false]",
+        "time" : {
+          "start" : 1634193879417,
+          "stop" : 1634193879560,
+          "duration" : 143
+        }
+      }, {
+        "uid" : "11b368ea935d7c36",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/18/allure/#testresult/11b368ea935d7c36",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634110792165,
+          "stop" : 1634110792179,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "3b593432fef9367d",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/17/allure/#testresult/3b593432fef9367d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634110792165,
+          "stop" : 1634110792179,
+          "duration" : 14
+        }
+      }, {
+        "uid" : "2b00355162342343",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/13/allure/#testresult/2b00355162342343",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634104659727,
+          "stop" : 1634104659762,
+          "duration" : 35
+        }
+      }, {
+        "uid" : "75358816b46c5bf0",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/11/allure/#testresult/75358816b46c5bf0",
+        "status" : "failed",
+        "statusDetails" : "did not expect to find [true] but found [false]",
+        "time" : {
+          "start" : 1633867034692,
+          "stop" : 1633867034743,
+          "duration" : 51
+        }
+      }, {
+        "uid" : "be0c6048764224d6",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/10/allure/#testresult/be0c6048764224d6",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633866783025,
+          "stop" : 1633866783061,
+          "duration" : 36
+        }
+      }, {
+        "uid" : "f09e56fb2c6777a8",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/9/allure/#testresult/f09e56fb2c6777a8",
+        "status" : "failed",
+        "statusDetails" : "did not expect to find [true] but found [false]",
+        "time" : {
+          "start" : 1633685164867,
+          "stop" : 1633685164905,
+          "duration" : 38
+        }
+      }, {
+        "uid" : "be6b97ea2749c05",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/8/allure/#testresult/be6b97ea2749c05",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633685009137,
+          "stop" : 1633685009173,
+          "duration" : 36
+        }
+      }, {
+        "uid" : "7f708cc2ba32df73",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/7/allure/#testresult/7f708cc2ba32df73",
+        "status" : "failed",
+        "statusDetails" : "did not expect to find [true] but found [false]",
+        "time" : {
+          "start" : 1633638163758,
+          "stop" : 1633638163831,
+          "duration" : 73
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "643252976bcea1fc.json",
+  "parameterValues" : [ "api", "Guy", "David", "guydavid@gmail.oed", " Geology" ]
+}

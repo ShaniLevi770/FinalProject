@@ -1,0 +1,267 @@
+{
+  "uid" : "88472edc01368169",
+  "name" : "Test 02 - Add New Students",
+  "fullName" : "sanity.StudentAPI.test02_addStudent",
+  "historyId" : "74630d4684cec40f4baee08aed0f517",
+  "time" : {
+    "start" : 1634199644213,
+    "stop" : 1634199644248,
+    "duration" : 35
+  },
+  "description" : "This Test Add Students From DDT File and Verify ",
+  "descriptionHtml" : "<p>This Test Add Students From DDT File and Verify</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "StartSession",
+    "time" : {
+      "start" : 1634199641151,
+      "stop" : 1634199641902,
+      "duration" : 751
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "BeforeMethode",
+    "time" : {
+      "start" : 1634199644206,
+      "stop" : 1634199644206,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1634199644252,
+      "stop" : 1634199644252,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1634199644593,
+      "stop" : 1634199644593,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.StudentAPI"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.StudentAPI"
+  }, {
+    "name" : "testMethod",
+    "value" : "test02_addStudent"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.StudentAPI"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HSPR786"
+  }, {
+    "name" : "thread",
+    "value" : "3560@DESKTOP-HSPR786.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "api"
+  }, {
+    "name" : "arg0",
+    "value" : "Noga"
+  }, {
+    "name" : "arg1",
+    "value" : "Golan"
+  }, {
+    "name" : "arg2",
+    "value" : "nogatur@gmail.org"
+  }, {
+    "name" : "arg3",
+    "value" : " Oceanography"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 4,
+        "broken" : 1,
+        "skipped" : 0,
+        "passed" : 8,
+        "unknown" : 0,
+        "total" : 13
+      },
+      "items" : [ {
+        "uid" : "27312d0e254214c5",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/22/allure/#testresult/27312d0e254214c5",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634199644213,
+          "stop" : 1634199644248,
+          "duration" : 35
+        }
+      }, {
+        "uid" : "54590f222d97ca2a",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/21/allure/#testresult/54590f222d97ca2a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634195921382,
+          "stop" : 1634195921433,
+          "duration" : 51
+        }
+      }, {
+        "uid" : "c62e6db9c09a5089",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/20/allure/#testresult/c62e6db9c09a5089",
+        "status" : "broken",
+        "statusDetails" : "Connection refused: connect",
+        "time" : {
+          "start" : 1634194383586,
+          "stop" : 1634194387847,
+          "duration" : 4261
+        }
+      }, {
+        "uid" : "2a440a31cf61d224",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/19/allure/#testresult/2a440a31cf61d224",
+        "status" : "failed",
+        "statusDetails" : "did not expect to find [true] but found [false]",
+        "time" : {
+          "start" : 1634193879213,
+          "stop" : 1634193879406,
+          "duration" : 193
+        }
+      }, {
+        "uid" : "a77543732326826b",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/18/allure/#testresult/a77543732326826b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634110792122,
+          "stop" : 1634110792154,
+          "duration" : 32
+        }
+      }, {
+        "uid" : "4ecb47304e4c07e0",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/17/allure/#testresult/4ecb47304e4c07e0",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634110792122,
+          "stop" : 1634110792154,
+          "duration" : 32
+        }
+      }, {
+        "uid" : "91434a8f3d9d3217",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/13/allure/#testresult/91434a8f3d9d3217",
+        "status" : "passed",
+        "time" : {
+          "start" : 1634104659630,
+          "stop" : 1634104659700,
+          "duration" : 70
+        }
+      }, {
+        "uid" : "cc5fa502191fbab6",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/11/allure/#testresult/cc5fa502191fbab6",
+        "status" : "failed",
+        "statusDetails" : "did not expect to find [true] but found [false]",
+        "time" : {
+          "start" : 1633867034623,
+          "stop" : 1633867034676,
+          "duration" : 53
+        }
+      }, {
+        "uid" : "35d2467e737006e7",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/10/allure/#testresult/35d2467e737006e7",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633866782844,
+          "stop" : 1633866783000,
+          "duration" : 156
+        }
+      }, {
+        "uid" : "d315f7f85383d94e",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/9/allure/#testresult/d315f7f85383d94e",
+        "status" : "failed",
+        "statusDetails" : "did not expect to find [true] but found [false]",
+        "time" : {
+          "start" : 1633685164805,
+          "stop" : 1633685164855,
+          "duration" : 50
+        }
+      }, {
+        "uid" : "a404ca12f64dd4dc",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/8/allure/#testresult/a404ca12f64dd4dc",
+        "status" : "passed",
+        "time" : {
+          "start" : 1633685008959,
+          "stop" : 1633685009038,
+          "duration" : 79
+        }
+      }, {
+        "uid" : "444903edf74a7eb4",
+        "reportUrl" : "http://localhost:9090/job/Sanity%20Tests%20Web/7/allure/#testresult/444903edf74a7eb4",
+        "status" : "failed",
+        "statusDetails" : "did not expect to find [true] but found [false]",
+        "time" : {
+          "start" : 1633638163441,
+          "stop" : 1633638163734,
+          "duration" : 293
+        }
+      } ]
+    },
+    "tags" : [ ]
+  },
+  "source" : "88472edc01368169.json",
+  "parameterValues" : [ "api", "Noga", "Golan", "nogatur@gmail.org", " Oceanography" ]
+}

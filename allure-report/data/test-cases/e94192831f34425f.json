@@ -1,0 +1,112 @@
+{
+  "uid" : "e94192831f34425f",
+  "name" : "Test04 - delete From Wishlist",
+  "fullName" : "sanity.nopCommerceWeb.test04_DeleteFromWishlist",
+  "historyId" : "4af1a48790e3606821efdea20caf33e5",
+  "time" : {
+    "start" : 1634201727127,
+    "stop" : 1634201727129,
+    "duration" : 2
+  },
+  "description" : "This Test Deletes Item from Wishlist ",
+  "descriptionHtml" : "<p>This Test Deletes Item from Wishlist</p>\n",
+  "status" : "skipped",
+  "statusMessage" : "\nParameter 'PlatformName' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\97250\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml",
+  "statusTrace" : "org.testng.TestNGException: \nParameter 'PlatformName' is required by BeforeClass on method StartSession but has not been marked @Optional or defined\nin C:\\Users\\97250\\AppData\\Local\\JetBrains\\IdeaIC2021.2\\temp-testng-customsuite.xml\r\n\tat org.testng.internal.Parameters.createParams(Parameters.java:289)\r\n\tat org.testng.internal.Parameters.createParametersForMethod(Parameters.java:377)\r\n\tat org.testng.internal.Parameters.createParameters(Parameters.java:721)\r\n\tat org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:164)\r\n\tat org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:275)\r\n\tat org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:176)\r\n\tat org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:122)\r\n\tat java.util.ArrayList.forEach(ArrayList.java:1257)\r\n\tat org.testng.TestRunner.privateRun(TestRunner.java:770)\r\n\tat org.testng.TestRunner.run(TestRunner.java:591)\r\n\tat org.testng.SuiteRunner.runTest(SuiteRunner.java:402)\r\n\tat org.testng.SuiteRunner.runSequentially(SuiteRunner.java:396)\r\n\tat org.testng.SuiteRunner.privateRun(SuiteRunner.java:355)\r\n\tat org.testng.SuiteRunner.run(SuiteRunner.java:304)\r\n\tat org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)\r\n\tat org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)\r\n\tat org.testng.TestNG.runSuitesSequentially(TestNG.java:1180)\r\n\tat org.testng.TestNG.runSuitesLocally(TestNG.java:1102)\r\n\tat org.testng.TestNG.runSuites(TestNG.java:1032)\r\n\tat org.testng.TestNG.run(TestNG.java:1000)\r\n\tat com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)\r\n\tat com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)\r\n",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeMethode",
+    "time" : {
+      "start" : 1634201727111,
+      "stop" : 1634201727112,
+      "duration" : 1
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1634201727132,
+      "stop" : 1634201727132,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "CloseSession",
+    "time" : {
+      "start" : 1634201727135,
+      "stop" : 1634201727135,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "broken",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test04_DeleteFromWishlist"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Default Suite"
+  }, {
+    "name" : "suite",
+    "value" : "FinalProject_nopCommerce"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HSPR786"
+  }, {
+    "name" : "thread",
+    "value" : "9788@DESKTOP-HSPR786.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e94192831f34425f.json",
+  "parameterValues" : [ ]
+}

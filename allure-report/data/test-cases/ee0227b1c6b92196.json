@@ -1,0 +1,103 @@
+{
+  "uid" : "ee0227b1c6b92196",
+  "name" : "Test06 - Verify_Search_Results",
+  "fullName" : "sanity.nopCommerceWeb.test06_Verify_SearchResults",
+  "historyId" : "6366767dc703fb6e96f91dd55da318e9",
+  "time" : {
+    "start" : 1634202083129,
+    "stop" : 1634202090887,
+    "duration" : 7758
+  },
+  "description" : "This test Verify_search results For Strings Accepted From Data Provider Method",
+  "descriptionHtml" : "<p>This test Verify_search results For Strings Accepted From Data Provider Method</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "BeforeMethode",
+    "time" : {
+      "start" : 1634202083114,
+      "stop" : 1634202083123,
+      "duration" : 9
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "afterStages" : [ {
+    "name" : "AfterMethod",
+    "time" : {
+      "start" : 1634202090888,
+      "stop" : 1634202090888,
+      "duration" : 0
+    },
+    "description" : "",
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "package",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testClass",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "testMethod",
+    "value" : "test06_Verify_SearchResults"
+  }, {
+    "name" : "parentSuite",
+    "value" : "Web Suite"
+  }, {
+    "name" : "suite",
+    "value" : "Web Tests"
+  }, {
+    "name" : "subSuite",
+    "value" : "sanity.nopCommerceWeb"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-HSPR786"
+  }, {
+    "name" : "thread",
+    "value" : "1016@DESKTOP-HSPR786.main(1)"
+  }, {
+    "name" : "framework",
+    "value" : "testng"
+  }, {
+    "name" : "language",
+    "value" : "java"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "PlatformName",
+    "value" : "web"
+  }, {
+    "name" : "arg0",
+    "value" : "pride"
+  }, {
+    "name" : "arg1",
+    "value" : "exists"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ee0227b1c6b92196.json",
+  "parameterValues" : [ "web", "pride", "exists" ]
+}
