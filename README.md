@@ -1,5 +1,5 @@
 # _Full-stack Test Automation Course FinalProject_
-**This project was created in order to demonstrate my knowledge and skills in Automation Testing.
+**This project was created in order to demonstrate my knowledge and skills in Automation Testing.**
 # _About_
 The project demonstrates a smart automation infrastructure. It is built in hierarchy order of modules. The modules contain number of classes with methods. There are sanity/workflows/verify/actions/page_object modules. In this way, the tests can be created in very simple way with a minimum lines of code. Also the infrastructure allows to work with differend kinds of applications. Big advantage of the infrastructure is that it can be easlly maintained!
 
