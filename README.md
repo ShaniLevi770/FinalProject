@@ -23,19 +23,20 @@ The project is an example of infrastructure for automation testing of different 
 * CI support
 
 # List of applications were used in this project:
-NopCommerce web page - Web application
-Eribank - Mobile application
-API Demos - Mobile application
-Students API - Web API
-ToDolist - Electron application 
-Windows calculator - Desktop application
-Tools & Frameworks used in the project:
-TestNG - Testing Framework
-Listeners - interface used to generate logs and customize the TestNG reports
-MySQL Free Online DB - used for login to NopCommerce web page
-Jenkins- for tests execution
-REST Assured - for API testing
-Allure Reports - as the main reporting system
+* NopCommerce web page - Web application
+* Eribank - Mobile application
+* API Demos - Mobile application
+* Students API - Web API
+* ToDolist - Electron application 
+* Windows calculator - Desktop application
+
+# Tools & Frameworks used in the project:
+* TestNG - Testing Framework
+* Listeners - interface used to generate logs and customize the TestNG reports
+* MySQL Free Online DB - used for login to NopCommerce web page
+* Jenkins- for tests execution
+* REST Assured - for API testing
+* Allure Reports - as the main reporting system
 
 # Tests Execution:
 Each of the applications has a few tests for demonstration purpose. These tests can be developed in a very simple way, due to a lot of work with the infrastructure. [Sanity Tests]
